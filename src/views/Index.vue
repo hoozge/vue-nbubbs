@@ -1,7 +1,7 @@
 <template>
     <Header />
     <router-view/>
-    <el-backtop right="100" :bottom="100" />
+    <el-backtop :right="100" :bottom="100" />
 </template>
 
 <script>
