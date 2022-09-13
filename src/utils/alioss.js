@@ -2,8 +2,8 @@ var OSS = require('ali-oss');
 export function client() {
     var client = new OSS({
         region: 'oss-cn-hangzhou',//填写Bucket所在地域
-        accessKeyId: 'LTAI5t9xVpGPQgubsRKwCHWH',  //这自己keyId
-        accessKeySecret: 'vcAk8oBmS6lzN2dbQFmNhZftCGIt1y', //这里写自己的key密码
+        accessKeyId: 'LTA*****ubsRKwCHWH',  //这自己keyId
+        accessKeySecret: 'vcAk*****GIt1y', //这里写自己的key密码
         bucket: 'nbubbs-image' ,// 填写Bucket名称。
         secure:true,
     })  //后端提供数据
